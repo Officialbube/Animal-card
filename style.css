@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    
+}
+.container{
+    background-color: bisque;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,1)), url(images/pembroke-welsh-corgi.jpg);
+    height: 30rem;
+    width: 20rem;
+    text-align: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+.container h2{
+    margin: 2rem 0;
+}
+.container p{
+    margin: 0 1rem 1rem 1rem;
+    
+}
+.container button{
+    font-size: 1.5rem;
+    margin-top: 10rem;
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: none;
+    box-shadow: rgba(128, 128, 128, 0.849);
+    background-color: black;
+    color: white;
+}
